@@ -226,6 +226,9 @@ margin: auto;
   width: auto; 
   height: auto;
 }
+.vid{
+  padding: 20px;
+}
 .form {
   margin-top: 200px;
   color: white;
@@ -483,3 +486,121 @@ animation-name: pulse;
   50% { transform: scale(1.2); }
   100% { transform: scale(1); }
 }
+.content h1, .content p{
+  color:#333;
+    text-align: center;
+  /*display: inline-block;*/
+}
+.copy h1{
+  font-size: 50px;
+  font-family: 'Roboto Slab';
+}
+.image_pop{
+  padding-bottom: 20px;
+}
+.image_pop img
+{
+  vertical-align: middle;
+     position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+}
+.image_pop img:hover
+{
+  vertical-align: middle;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+.btn{
+  background:none;
+}
+#toTop{
+  background-image: url(img/arrowup2.png);
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size:cover;
+  background-position:center center;
+  position: fixed;
+  border: none;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  z-index: 2;
+}
+.modal.fade .modal-dialog {
+    width: 600px;
+    margin: -1px auto;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -o-transition: -o-transform 1s ease-out;
+    transition: transform 1s ease-out;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+.close{
+  right: 20px;
+  padding-right: 35px;
+  opacity: .5;
+}
+.audio_sec{
+  margin-left: 10px;
+}
+/*all media mobile css code*/
+@media screen and (max-width: 600px) {
+.inner, .inner2 {
+  height: 900px;
+}
+h1{
+  margin-top: 10px;
+}
+#email{
+  background-color: rgba(214,184,36,0.1);
+  border: 2px double gray;
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: none;
+}
+
+
+#subscribeButton{
+  height: 30px;
+  width: : 30px;
+  background-color: rgba(214, 184, 36, 0.6);
+  border: none;
+  margin: 0;
+  padding: 0 auto;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  right: 0;
+}}
+@media (min-width: 768px){
+.modal-dialog {
+  width: 600px;
+  margin: 30px auto;
+}}
+@media (max-width: 768px){
+.cardCD{
+  display: none;
+}}

@@ -31,7 +31,37 @@
 			</ul>
 		</nav>
 <!-- nav bar end -->
-
+<!-- The modal starts -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+      <h4>Media</h4>
+        <video id="vid" height="300px" poster="img/screen.jpg" controls="controls" >
+        <source src="img/irl.mp4" type="video/mp4"/>
+        </video>
+      <div><a href="https://www.youtube.com/watch?v=xfFHb7ilxbM"></a></div></div>
+      <section class="audio_sec">
+      <h5>The Irish Rovers - Whiskey in the Jar</h5>
+      <audio controls="controls">
+        <source src="img/song.mp3" type="audio/mpeg"/>
+        </audio>
+        </section>
+        <section class="audio_sec">
+      <h5>Swallowtail Jig - Irish Fiddle Tune!</h5>
+      <audio controls="controls">
+        <source src="img/song2.mp3" type="audio/mpeg"/>
+        </audio>
+        </section>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal ends -->
+<!-- layer start -->
  <div class="container-fluid">
 	<section class="hero">
 	<div class="fullscreen-bg">
@@ -118,7 +148,7 @@
 		<!-- </div> -->
 	</section>
 	<div class="container2 row">
-		<div id="gallery">show more <span class="glyphicon glyphicon-triangle-bottom"></span></div>
+		<div id="gallery">show my photogallery<span class="glyphicon glyphicon-triangle-bottom"></span></div>
 	<div id="galleryDrop">
 <div id="gallery_drop"></div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
@@ -292,9 +322,9 @@
 	<!-- post card ends -->
 	<!-- spinning post card starts -->
 	<section>
-		<div>
-			<div class="flipPic">Read more</div>
-			<div class="panelPic">
+		<div class="cardCD">
+			<div class="flipPic">show my postcards</div>
+			<div class="panelPic" style="display: none;">
 				<div class="card">
 					<div class="side">
 					<img src="img/postcardtop.jpg" class="img-thumbnail2" alt=""></div>
@@ -316,7 +346,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				
 			</section>
 <!-- spining card ends -->
 <button type="submit">SEND</button>	

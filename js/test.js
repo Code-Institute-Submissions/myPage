@@ -19,7 +19,7 @@
   $(document).ready(function(){
         $("#gallery").click(function(){
             $(this).html($(this).html() == 'show less <span class="glyphicon glyphicon-triangle-top"></span>' ?
-             'show more <span class="glyphicon glyphicon-triangle-bottom"></span> ' : 'show less <span class="glyphicon glyphicon-triangle-top"></span>');
+             'show my photogallery <span class="glyphicon glyphicon-triangle-bottom"></span> ' : 'show less <span class="glyphicon glyphicon-triangle-top"></span>');
         });
 });
   $(document).ready(function(){
@@ -31,7 +31,7 @@
   $(document).ready(function(){
         $(".flipPic").click(function(){
             $(this).html($(this).html() == 'show less <span class="glyphicon glyphicon-triangle-top"></span>' ?
-             'show more <span class="glyphicon glyphicon-triangle-bottom"></span> ' : 'show less <span class="glyphicon glyphicon-triangle-top"></span>');
+             'my post card <span class="glyphicon glyphicon-triangle-bottom"></span> ' : 'show less <span class="glyphicon glyphicon-triangle-top"></span>');
         });
 });
 // link scroller
@@ -48,7 +48,6 @@ $(document).ready(function(){
         window.location.hash = target;
       });
   });
-
 // to top scroller
 $(document).ready(function(){
       $('body').append('<div id="toTop"</div>');
