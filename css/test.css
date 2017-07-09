@@ -1,0 +1,105 @@
+html, body{
+  margin:0px; padding:0px;
+  text-decoration: none;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  text-align: center;
+  /*position: relative;*/
+  vertical-align: middle;
+  /*padding-bottom: 20px;*/
+  /*margin-bottom: 20px;*/
+}
+header a{
+  color:white;
+  background:rgba(0,0,0,0.1); 
+  display:inline-block; 
+  padding:0px 30px; 
+  height:60px;
+  line-height:60px; 
+  text-align:center;
+  font-family: 'Roboto Slab', serif; 
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px; 
+  font-weight:700;
+}
+h1{
+  margin:0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:400;
+  font-size:32px;
+  padding-top:25px;
+}
+p{
+  font-family: 'Noto Sans', sans-serif; 
+  font-size:14px;
+  padding-bottom: 15px;
+}
+ul {
+  display: inline-block;
+}
+a:hover{
+  text-decoration: none;
+}
+footer{
+  padding-top: 20px;
+  vertical-align: middle;
+}
+
+
+
+/*fixed background images css*/
+#hero1{
+ background-image:url(img/18s.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+#hero2{
+  background-image: url(img/gear.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+#hero3{
+  background-image: url(img/gallery.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+#hero4{
+  background-image: url(img/bgpost.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+.hero, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+.hero, .inner, .inner2, .inner3{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+.hero h1, .hero p{ 
+  color:#fff;
+}
+.inner{
+  min-height:700px;
+  position: relative;
+}
+.inner2{
+  min-height: 400px;
+  position: relative;
+}
+.profile{
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 130px;
+}
