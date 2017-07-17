@@ -50,6 +50,13 @@ footer{
   padding-top: 20px;
   vertical-align: middle;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    float: right;
+}
+.footerInfo{
+  margin-top: 20px;
+}
 .container{
     align-items: center;
     text-align: center;
@@ -73,12 +80,16 @@ margin: auto;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1); 
-    margin: 10px;  
+    margin-left: 40px;  
 }
 .container2 img:hover
 {
   vertical-align: middle;
-    box-shadow: 0px 0px 20px #000000;
+    -ms-filter: drop-shadow(2px 2px 1px #575757);
+    -webkit-filter: drop-shadow(2px 2px 1px #575757);
+    -moz-filter: drop-shadow(2px 2px 1px #575757);
+    -o-filter: drop-shadow(2px 2px 1px #575757);
+    filter: drop-shadow(2px 2px 1px #575757);
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.2);
@@ -129,14 +140,16 @@ margin: auto;
   background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
 }
 .hero h1, .hero p{ 
-  color:#fff;
+    color: #fff;
+    margin: 20px 100px 0 100px;
+    letter-spacing: 2px;
 }
 .inner{
   min-height:700px;
   position: relative;
 }
 .inner2{
-  min-height: 400px;
+  min-height: 600px;
   position: relative;
 }
 .copy{
@@ -181,6 +194,18 @@ margin: auto;
   position: relative;
   max-width: 100%;
   max-height: 250px;
+}
+.arrowdown{
+      margin-top: 190px;
+    margin-left: -70px;
+    filter: invert(100%);
+}
+.letterImage{
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+
 }
 .modal-content {
   background-color: rgba(0,0,0,0);
@@ -230,7 +255,6 @@ margin: auto;
   padding: 20px;
 }
 .form {
-  margin-top: 200px;
   color: white;
 }
 /*panels show and hide css*/
@@ -347,6 +371,7 @@ max-width: 100%;
     text-decoration: none;
     width: 100%;
     height: 700px;
+    max-width: 1100px;
 }
 .card {
   height: 700px;
@@ -492,8 +517,8 @@ animation-name: pulse;
   /*display: inline-block;*/
 }
 .copy h1{
-  font-size: 50px;
-  font-family: 'Roboto Slab';
+      font-size: 5em;
+    font-family: 'Noto Sans';
 }
 .image_pop{
   padding-bottom: 20px;
@@ -529,8 +554,8 @@ animation-name: pulse;
 }
 #toTop{
   background-image: url(img/arrowup2.png);
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
   margin-right: 10px;
   margin-bottom: 10px;
   background-size:cover;
@@ -562,6 +587,9 @@ animation-name: pulse;
 .audio_sec{
   margin-left: 10px;
 }
+.buttonPlace{
+  height: 700px;
+}
 /*all media mobile css code*/
 @media screen and (max-width: 600px) {
 .inner, .inner2 {
@@ -569,6 +597,15 @@ animation-name: pulse;
 }
 h1{
   margin-top: 10px;
+}
+.profile{
+  display: none;
+}
+.postc{
+  display: none;
+  }
+#hero4{
+  display: none;
 }
 #email{
   background-color: rgba(214,184,36,0.1);
@@ -580,8 +617,6 @@ h1{
   font-weight: bold;
   margin: none;
 }
-
-
 #subscribeButton{
   height: 30px;
   width: : 30px;
@@ -603,4 +638,30 @@ h1{
 @media (max-width: 768px){
 .cardCD{
   display: none;
-}}
+}
+.hero h1{
+  font-size: 2em;
+  margin: auto;
+  }
+.hero p{
+  font-size: 0.7em;
+}
+}
+@media(max-width: 450px){
+.copy{
+  top: 30%;
+}
+.hero p{
+  margin: 50px 10px 0 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  text-align: center;
+  float: none;
+}
+.postc{
+  display: none;
+}
+.profile{
+  display: none;
+}
+}
