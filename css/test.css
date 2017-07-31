@@ -169,7 +169,8 @@ margin: auto;
     max-height: 250px;
     margin-left: 50px;
 }
-~
+.space{
+  padding-bottom: 20px;
 }
 #gear{
   padding: 5px;
