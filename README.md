@@ -1,7 +1,7 @@
-# Description #
-This is my first project created in Code Institute Boot-camp. This project was done in 3-4 weeks (no previous knowledge of programming or web design). This content is simple introduction about myself and my photography.(Design is my own, no templates)
----------------
-### Tech Tools ###
+# Description
+This is my first project created in Code Institute Boot-camp. This project was done in 3-4 weeks (no previous knowledge of programming or web design). This content is simple introduction about myself and my photography. (This page was made from scratch no templates used!)
+
+### Tech Tool
 * HTML 5
 * CSS
 * Java Script
@@ -15,7 +15,7 @@ This is my first project created in Code Institute Boot-camp. This project was d
 * To make page responsive for different size screens
 ---------------
 ### Libraries ###
-https://www.w3schools.com/
+https://www.w3schools.com
 https://www.codepen.io
 ---------------
 ### Deployment ###
