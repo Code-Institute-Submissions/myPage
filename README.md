@@ -18,6 +18,9 @@ This is my first project created in Code Institute Boot-camp. This project was d
 https://www.w3schools.com
 https://www.codepen.io
 ---------------
+### Validated ###
+https://validator.w3.org/
+---------------
 ### Deployment ###
 This static site is deployed to GitHub Pages. It is simple and easy to host personal project pages from a GitHub repository.
 click here to check my [page live](https://ignasgri.github.io/myPage/)

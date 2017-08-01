@@ -197,7 +197,7 @@ margin: auto;
   position-top: 150px;
 }
 
-#postcardimage{
+.postcardimage{
   position: relative;
     max-width: 120%;
     max-height: 250px;
