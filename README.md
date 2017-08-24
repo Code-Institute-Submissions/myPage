@@ -1,8 +1,8 @@
 # Description
-This is my first project created in Code Institute Boot-camp. This project was done in 3-4 weeks (no previous knowledge of programming or web design). This page is introduction about myself and my photography. (This page was made from scratch no templates used!)
+This is my first project created in Code Institute Boot-camp. This project was done in 3-4 weeks (no previous knowledge of programming or web design). This page is introduction about myself and my photography. (This page was made from scratch **no templates used!**)
 
 ## Live Demo
-:globe_with_meridians: Click here to check my [https://ignasgri.github.io/myPage/](https://ignasgri.github.io/myPage/)
+:globe_with_meridians: Click here to check my page live [https://ignasgri.github.io/myPage/](https://ignasgri.github.io/myPage/)
 
 ### Tech Tool
 * HTML 5
@@ -14,8 +14,8 @@ This is my first project created in Code Institute Boot-camp. This project was d
 * GitHub command line
 
 ### Libraries
-> [https://www.w3schools.com](https://www.w3schools.com)
-> [https://www.codepen.io](https://www.codepen.io)
+* [https://www.w3schools.com](https://www.w3schools.com)
+* [https://www.codepen.io](https://www.codepen.io)
 
 ### Validated
 [https://validator.w3.org/](https://validator.w3.org/)
