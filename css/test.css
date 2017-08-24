@@ -62,6 +62,13 @@ footer{
 .footerInfo{
   margin-top: 20px;
 }
+.icon p{
+  display: block!important;
+  padding-top: 5px;
+}
+.icon img{
+  width: 25px;
+}
 .container{
     align-items: center;
     text-align: center;
@@ -105,7 +112,7 @@ margin: auto;
     transform: scale(1.2);
 }
 .container_footer p{
-  font-size: 8px;
+  font-size: 12px;
   display: initial;
   margin: auto;
 }
@@ -677,6 +684,11 @@ h1{
 .copy{
 
   margin-top: -20em;
+}
+.container_footer p{
+  font-size: 8px;
+  display: initial;
+  margin: auto;
 }
 }
 @media (max-width: 900px){
