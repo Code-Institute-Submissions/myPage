@@ -1,7 +1,8 @@
 # Description
 This is my first project created in Code Institute Boot-camp. This project was done in 3-4 weeks (no previous knowledge of programming or web design). This page is introduction about myself and my photography. (This page was made from scratch no templates used!)
+
 ---------------
-##Live Demo
+## Live Demo
 :globe_with_meridians: Click here to check my [https://ignasgri.github.io/myPage/](https://ignasgri.github.io/myPage/)
 ---------------
 ### Tech Tool
@@ -13,16 +14,16 @@ This is my first project created in Code Institute Boot-camp. This project was d
 * Lightroom - for edit photos
 * GitHub command line
 ---------------
-### Libraries ###
-https://www.w3schools.com
-https://www.codepen.io
+### Libraries
+[https://www.w3schools.com](https://www.w3schools.com)
+[https://www.codepen.io](https://www.codepen.io)
 ---------------
-### Validated ###
-https://validator.w3.org/
+### Validated
+[https://validator.w3.org/](https://validator.w3.org/)
 ---------------
-### Tests ###
+### Tests
 Tested on different devices and screen sizes.
 ---------------
-### Deployment ###
+### Deployment
 This static site is deployed to GitHub Pages. It is simple and easy to host personal project pages from a GitHub repository.
 
