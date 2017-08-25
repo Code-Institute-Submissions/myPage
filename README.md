@@ -26,3 +26,10 @@ Tested on different devices and screen sizes.
 ### Deployment
 This static site is deployed to GitHub Pages. It is simple and easy to host personal project pages from a GitHub repository.
 
+### wireframe Screenshots
+Mani page Mock-up
+> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/main.jpg" width="850">
+Media Mock-up
+> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/media.jpg" width="850">
+Mobile Mock-up
+> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/media.jpg">
