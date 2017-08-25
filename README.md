@@ -28,8 +28,8 @@ This static site is deployed to GitHub Pages. It is simple and easy to host pers
 
 ### wireframe Screenshots
 Mani page Mock-up
-> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/main.jpg" width="850">
+> <img src="https://github.com/ignasgri/myPage/blob/master/img/main.png" width="850">
 Media Mock-up
-> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/media.jpg" width="850">
+> <img src="https://github.com/ignasgri/myPage/blob/master/img/media.png" width="850">
 Mobile Mock-up
-> <img src="https://github.com/ignasgri/Online-shop/blob/master/static/images/media.jpg">
+> <img src="https://github.com/ignasgri/myPage/blob/master/img/mobile.png">
