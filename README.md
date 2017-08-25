@@ -26,7 +26,7 @@ Tested on different devices and screen sizes.
 ### Deployment
 This static site is deployed to GitHub Pages. It is simple and easy to host personal project pages from a GitHub repository.
 
-### wireframe Screenshots
+### Wireframe Screenshots
 Mani page Mock-up
 > <img src="https://github.com/ignasgri/myPage/blob/master/img/main.png" width="850">
 Media Mock-up
